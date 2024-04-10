@@ -1,5 +1,7 @@
 -- How many of each property type are there in Hyde Park?
-
+SELECT property_type, count(*) from listings
+Where neighborhood = "Hyde Park"
+Group by property_type
 -- +-------------------------------------+----------+
 -- | Entire condominium (condo)          | 6        |
 -- | Entire guest suite                  | 1        |

@@ -1,5 +1,6 @@
 -- What are all the neighborhoods, alphabetically?
-
+select distinct neighborhood from listings
+Order by neighborhood ASC
 -- +------------------------+
 -- | Albany Park            |
 -- | Archer Heights         |
